@@ -111,12 +111,12 @@ public:
 		Card::info = "A victory card worth 1 victory point.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Estate()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -139,12 +139,12 @@ public:
 		Card::info = "A victory card worth 3 victory points.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Duchy()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -167,12 +167,12 @@ public:
 		Card::info = "A victory card worth 6 victory points. When this deck is empty, the game is over.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Province()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -195,12 +195,12 @@ public:
 		Card::info = "A victory card worth 1 victory point per 10 cards you have (Round Down).";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Gardens()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -223,12 +223,12 @@ public:
 		Card::info = "A victory card worth -1 victory points. When a witch is played, each other player gains a curse.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Curse()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -256,12 +256,12 @@ public:
 		Card::info = "A treasure card worth 1 money.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Copper()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -284,12 +284,12 @@ public:
 		Card::info = "A treasure card worth 2 money.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Silver()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -312,12 +312,12 @@ public:
 		Card::info = "A treasure card worth 3 money.";
 		//Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Gold()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -345,12 +345,12 @@ public:
 		Card::info = "An action card: +1 Action. Discard any number of cards, then draw that many.";
 		Card::cardId = 1;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Cellar()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -372,12 +372,12 @@ public:
 		Card::info = "Trash up to 4 cards from your hand.";
 		Card::cardId = 2;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Chapel()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -400,12 +400,12 @@ public:
 		Card::info = "An action card: +2 Cards. When another player plays an Attack card, you may first reveal this from your hand. If you do, you are unaffected by that Attack.";
 		Card::cardId = 3;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Moat()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -429,12 +429,12 @@ public:
 		Card::info = "An action card: +1 Card, +1 Action. Look through your discard pile. You may put a card from it onto your deck.";
 		Card::cardId = 4;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Harbinger()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -459,12 +459,12 @@ public:
 		Card::info = "An action card: +1 Card, +1 Action. The first time you play a silver this turn +1 Money.";
 		Card::cardId = 5;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Merchant()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 	void complexAction(bool hasSilver) {if (hasSilver) bonusMoney = 1;}
@@ -489,12 +489,12 @@ public:
 		Card::info = "An action card: +2 Money. Discard the top card of your deck. If it is an action card you may play it.";
 		Card::cardId = 6;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Vassal()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -518,12 +518,12 @@ public:
 		Card::info = "An action card: +1 Card, +2 Actions";
 		Card::cardId = 7;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Village()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -547,12 +547,12 @@ public:
 		Card::info = "An action card: +1 Buy, +2 Money.";
 		Card::cardId = -1; // Card Removed From Game
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Woodcutter()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -575,12 +575,12 @@ public:
 		Card::info = "An action card: Gain a card costing up to 4 money.";
 		Card::cardId = 8;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Workshop()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -602,12 +602,12 @@ public:
 		Card::info = "Gain a Silver onto your deck. Each other player reveals a Victory card from their hand and puts it onto their deck (or reveals a hand with no Victory cards).";
 		Card::cardId = 9;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Bureaucrat()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -630,12 +630,12 @@ public:
 		Card::info = "An action card: +2 Money. Each other player discards down to 3 cards in hand.";
 		Card::cardId = 11;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Militia()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -658,12 +658,12 @@ public:
 		Card::info = "You may trash a Copper from your hand for +3 Money.";
 		Card::cardId = 12;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	 }
 	 ~Moneylender()
 	 {
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	 }
 
 	 void complexAction(bool trashedCopper) {if (trashedCopper) bonusMoney = 3;}
@@ -690,12 +690,12 @@ public:
 		Card::info = "+1 Card, +1 Action, +1 Money. Discard a card per empty supply pile.";
 		Card::cardId = 13;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Poacher()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -717,12 +717,12 @@ public:
 		Card::info = "An action card: Trash a card from your hand. Gain a card costing up to 2 Money more than the trashed card.";
 		Card::cardId = 14;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Remodel()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -745,12 +745,12 @@ public:
 		Card::info = "An action card: +3 Cards.";
 		Card::cardId = 15;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Smithy()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -772,12 +772,12 @@ public:
 		Card::info = "You may play an action card from your hand twice.";
 		Card::cardId = 16;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~ThroneRoom()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -799,12 +799,12 @@ public:
 		Card::info = "Gain a Gold. Each other player reveals the top two cards of their deck, trashes a revealed treasure card other than a copper, and discards the rest.";
 		Card::cardId = 17;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Bandit()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -828,12 +828,12 @@ public:
 		Card::info = "An action card: +4 Cards, +1 Buy. Each other player draws one card.";
 		Card::cardId = 18;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~CouncilRoom()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -858,12 +858,12 @@ public:
 		Card::info = "An action card: +2 Actions, +1 Buy, +2 Money.";
 		Card::cardId = 19;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Festival()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -887,12 +887,12 @@ public:
 		Card::info = "An action card: +2 Cards, +1 Actions.";
 		Card::cardId = 20;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Laboratory()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -914,12 +914,12 @@ public:
 		Card::info = "An action card: Draw until you have 7 cards in hand, skipping any action cards you choose to; they will then be discarded.";
 		Card::cardId = 21;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Library()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -945,12 +945,12 @@ public:
 		Card::info = "An action card: +1 Card, +1 Action, +1 Buy, +1 Money.";
 		Card::cardId = 22;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Market()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -972,12 +972,12 @@ public:
 		Card::info = "An action card: Trash a Treasure card from your hand. Gain a Treasure card to your hand costing up to $3 more.";
 		Card::cardId = 23;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Mine()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -1001,12 +1001,12 @@ public:
 		Card::info = "An action card: +1 Card, +1 Action. Look at the top 2 cards of your deck. Trash and/or discard any number of them. Put the rest back on top in any order.";
 		Card::cardId = 24;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Sentry()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -1029,12 +1029,12 @@ public:
 		Card::info = "An action card: +2 Cards. Each other player gains a curse.";
 		Card::cardId = 25;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Witch()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
@@ -1056,12 +1056,12 @@ public:
 		Card::info = "An action card: Gain a card costing up to 5 Money to your hand. Place a card from your hand onto your deck.";
 		Card::cardId = 26;
 		num++;
-		cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Made  --  " << num << " " << cardName << "s." << endl;
 	}
 	~Artisan()
 	{
 		num--;
-		cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
+		//cout << cardName << " Destroyed  --  " << num << " " << cardName << "s." << endl;
 	}
 	
 private:
