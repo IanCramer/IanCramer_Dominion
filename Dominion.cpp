@@ -3,6 +3,8 @@
 // 9/6/18
 //
 
+
+
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -12,15 +14,16 @@
 
 #include "Dominion.h"
 
+
+
 int main()
 {
-  srand(time(NULL));
-  
-  Dominion myDominion;
-  
-  
-  
-  return 0;
+	srand(time(NULL));
+
+	Dominion myDominion;
+
+	return 0;
 }
+
 
 
